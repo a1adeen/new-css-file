@@ -1,0 +1,16 @@
+.border{
+    border: solid 11px; 
+}
+.day{
+   border:  solid 
+   10px;
+}
+.hi{
+    text-decoration: none;
+}
+.center {
+    text-align: center;
+}
+ a:visited{
+    color: aquamarine;
+ }
