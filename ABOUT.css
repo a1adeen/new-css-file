@@ -10,6 +10,9 @@ li , button, a{
     font-weight: 500;
     font-size: 16px;
     color: aliceblue;
+    list-style: none;
+    text-decoration: none;
+
     
     
 }
@@ -24,4 +27,21 @@ header{
     display: flex;
     padding: 0px 20px;
 
+}
+
+.hey , li , a:hover{
+    color: aqua;
+    transition: all 0.2s;
+}
+button{
+    border: none;
+    padding: 9px 25px ;
+    border-radius: 50px;
+    background-color: rgb(126, 153, 153);
+    cursor: pointer;
+    transform: 0.3s;
+}
+button:hover{
+    transition: 0.5s;
+    color: bisque;
 }
