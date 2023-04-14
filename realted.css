@@ -61,7 +61,7 @@ li a:focus{
 }
 li a {
     display: block;
-    border-radius: ;
+
 }
 li:last-child a{
     border-radius: 0 0 1rem 1rem ;
