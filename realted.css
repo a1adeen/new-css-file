@@ -54,7 +54,7 @@ li a:focus{
     background: none;
     cursor: pointer;
     background-color: rgb(3, 3, 2);
-    transition: 0.5s;
+    transition: 0.7s;
 }
 .text a{
     text-decoration: none;
