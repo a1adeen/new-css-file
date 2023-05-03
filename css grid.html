@@ -13,6 +13,10 @@
             /* grid-auto-columns: 1000px; */
             grid-auto-rows: minmax(100px,auto);
             /* minmax today */
+            grid-gap: 100px;
+            column-gap: 100px;
+       
+           
           
         }
         .item{
@@ -20,15 +24,38 @@
             border: solid 3px rgb(117, 73, 73);
             border-radius: 5px;
         }
+        #hey{
+        /* continue grid-row-start and end form here with code with harry  */
+        }
+        .item1{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            
+        }
+        .hey2{
+            border: solid 3px black;
+            border-radius: 3px;
+            grid-template-columns: 10px 10px;
+        }
     </style>
 </head>
 <body>
     <div id="container">
         <div class="item">1 Lorem ipsum dolor silorem1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ipsum totam omnis sit itaque, magni necessitatibus optio enim consectetur explicabo. Excepturi est cupiditate ducimus minus natus quam mollitia ullam impedit?.</div>
-        <div class="item">2</div>
-        <div class="item">3</div>
+        <div class="item" id="hey">2</div>
+        <div class="item 1">
+            <div class="hey2">box in box</div>
+            <div class="hey2">box in box</div>
+            <div class="hey2">box in box</div>
+            <div class="hey2">box in box</div>
+            </div>
         <div class="item">4</div>
     </div>
    
 </body>
 </html>
+
+
+
+
+<!-- wasted -->
