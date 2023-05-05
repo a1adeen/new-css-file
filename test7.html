@@ -9,9 +9,10 @@
         *{
             margin: 0;
             padding: 0;
+           background-color: rgb(141, 190, 233);
         }
-        header{
-            background-color: blueviolet;
+        #head{
+            background-color: rgb(29, 18, 41);
             border: solid 5px cornflowerblue;
             border-radius: 5px;
         }
@@ -24,11 +25,26 @@
             font-size: x-large;
             margin: 0 35px;
          }
+         @media screen and (max-width:1000px) {
+            #container{
+                background-color: aqua;
+            }
+         }
+         @media screen and (max-width:800px) {
+            *{
+                background-color: rgb(38, 54, 54);
+            }
+         }
+         @media screen and (max-width:450px) {
+            *{
+                background-color: rgb(2, 31, 31);
+            }
+         }
          
     </style>
 </head>
 <body>
-    <header>
+    <header  id="head">
         <nav>
             <ul>
                 <li>home</li>
