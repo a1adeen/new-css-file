@@ -22,6 +22,27 @@
             transform: scaleX(2);
             transform: matrix();
         }
+        #image{
+            width: 10000px;
+            background-color: blueviolet;
+            height: 500px;
+            display: inline-block;
+        }
+        #hi{
+            height: 400px;
+            width: 400px;
+            border: solid black 3px;
+            transform: translate(500px,50px);
+            /* transform: scale(100px); */
+            /* transform: rotateY('490angle'); */
+           
+        }
+        #hi:hover{
+            width: 10px;
+            height: 10px;
+            transition-duration: 3s;
+            transition-delay: 1s;
+        }
     </style>
 </head>
 <body>
@@ -29,5 +50,15 @@
         <div class="box">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum praesentium incidunt numquam magnam, sint officia debitis quis assumenda laboriosam commodi in, quasi tempore odio quaerat reiciendis totam esse ipsa laudantium!</div>
         
     </div>
+   <div id="image">
+    <img src="images/ggs.jpg" id="hi">
+    <button>hey</button>
+   </div>
+
 </body>
+<script>
+    btn.addEventListener("click",()=>{
+        image.style.widht= "10";
+    })
+</script>
 </html>
